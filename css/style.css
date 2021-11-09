@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1f1e1e;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header {
+    background: url(../images/header-bg.jpg) top center no-repeat;
+    background-size: cover;
+}
+.header__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.header__title {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
