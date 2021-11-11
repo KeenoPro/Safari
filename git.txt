@@ -1,0 +1,38 @@
+cls -  очистить командную строку
+cd  -  работа с папками
+d: - переключение на другой диск
+git --version проверка на наличие Git
+git --help
+git add (файл, который нужно добавить в Git)
+git rm --cached (файл, который нужно удалить из Git)
+git add . -- добавить все файлы
+git branch - показывает актуальную ветку
+gti branch test - добавление ветки
+git branch -D test - удаление ветки
+Создание Git:
+git config --global user.name "логин"
+git config --global user.email почта
+git config --list проверка на введенные логин и почту
+git init создание папки .git
+git add . синхронизация всех папок
+git status проверка на синхронизацию
+git commit -m "first commit" какой то комментарий
+git remote add origin https://github.com/KeenoPro/gittest.git 
+git push -u origin master залить файлы в git в ветку master
+git clone +ссылка на репозиторий
+git checkout -- (файл, в котором нужно отменить последнее сохранение)
+git checkout -- . - отменяет все сохранения
+git reset (имя файла, которое нужно удалить из git add)
+git reset . - удаляет из git add все добавленные файлы
+git reset --hard HEAD^1 вернуться на 1 коммит назад с помощью жесткого ресета(удаляет все изменения)
+git reset --soft HEAD^1 вернуться на 1 коммит назад с помощью мягкого ресета(не удаляет все изменения)
+git reset --force
+git branch (название новой ветки) - создание новой ветки
+git checkout (название ветки) - переключение между ветками
+git checkout -b (название новой ветки) - создание новой ветки и переход на нее.
+git branch -m (название ветки) - переименовать ветку.
+git checkout (код коммита) - переход на коммит.
+git branch -d (название ветки) - удаление ветки
+git merge (название ветки) - добавление ветки в основную
+git update-git-for-windows - обновление
+Gist token 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
